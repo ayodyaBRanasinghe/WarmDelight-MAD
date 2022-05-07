@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375269179169",
+    "project_id": "warmdelightcake",
+    "storage_bucket": "warmdelightcake.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375269179169:android:20d5cb9f2f7cb99d678860",
+        "android_client_info": {
+          "package_name": "com.example.warmdelightcake"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375269179169-24dds3dfcfreq2r7dapol3gk4jlnci64.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzE8_PAXvjcgsWgeF0imvoInGOlcHUc-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375269179169-24dds3dfcfreq2r7dapol3gk4jlnci64.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

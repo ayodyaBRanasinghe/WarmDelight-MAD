@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="progressBar2" type="id">progressBar2</item>
+    <item name="btn1" type="id">btn1</item>
+    <item name="text8" type="id">text8</item>
+    <item name="chk6" type="id">chk6</item>
+    <item name="chk5" type="id">chk5</item>
+    <item name="chk4" type="id">chk4</item>
+    <item name="chk2" type="id">chk2</item>
+    <item name="text7" type="id">text7</item>
+    <item name="text6" type="id">text6</item>
+    <item name="text5" type="id">text5</item>
+    <item name="text4" type="id">text4</item>
+    <item name="upl2" type="id">upl2</item>
+    <item name="upl" type="id">upl</item>
+    <item name="progressBar" type="id">progressBar</item>
+    <item name="text1" type="id">text1</item>
+    <item name="pricem" type="id">pricem</item>
+    <item name="fruitanut" type="id">fruitnut</item>
+    <item name="typem" type="id">typem</item>
+    <item name="namem1" type="id">namem1</item>
+    <item name="textView3" type="id">textView3</item>
+    <item name="manage1" type="id">manage1</item>
+    <item name="delete1" type="id">delete1</item>
+    <item name="imageView" type="id">imageView</item>
+    <item name="typem1" type="id">typem1</item>
+    <item name="namem2" type="id">namem2</item>
+    <item name="pricem1" type="id">pricem1</item>
+    <item name="manage2" type="id">manage2</item>
+    <item name="delete2" type="id">delete2</item>
+</resources>

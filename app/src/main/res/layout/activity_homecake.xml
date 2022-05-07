@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homecake">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@color/purple"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:transitionName="app"
+        app:logo="@drawable/ic_menu_24"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="692dp"
+
+        app:srcCompat="@drawable/cake"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-7dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/cke"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="#EFE8E8"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="CAKE"
+        android:textColor="#F6F3F3"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/toolbar"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="330dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/cke"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:background="#9DBF9F"
+        android:backgroundTint="#D6BCBC"
+        android:fontFamily="sans-serif-black"
+        android:text="ADD Cake Details"
+        android:textColor="#F1EEEE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13"
+        app:layout_constraintVertical_bias="0.126"
+        app:strokeColor="#BAB4B4"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="337dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:fontFamily="sans-serif-black"
+        android:text="MANAGE Cake Details"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cke" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="334dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:minHeight="48dp"
+        android:text="CALCULATE"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        tools:ignore="TouchTargetSizeCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
