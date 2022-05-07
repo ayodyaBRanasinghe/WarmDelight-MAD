@@ -14,6 +14,7 @@ public class CalculatecakeProfit extends AppCompatActivity {
         setContentView(R.layout.activity_calculatecake_profit);
     }
 
+//add cake price to calculate the sum
 
     public void ADD(View v){
         EditText ed1 = (EditText) findViewById(R.id.value1);
@@ -27,6 +28,8 @@ public class CalculatecakeProfit extends AppCompatActivity {
         ed3.setText("Total Value"+result);
     }
 
+//subtract the cake price to calculate the profit
+
     public void SUBTRACT(View v){
         EditText ed1 = (EditText) findViewById(R.id.value1);
         EditText ed2 = (EditText) findViewById(R.id.value2);
@@ -39,6 +42,8 @@ public class CalculatecakeProfit extends AppCompatActivity {
         ed3.setText("SUBTRACT Value"+result);
     }
 
+//multiply the cake price to calculate the profit
+
     public void MULTIPLY(View v){
         EditText ed1 = (EditText) findViewById(R.id.value1);
         EditText ed2 = (EditText) findViewById(R.id.value2);
@@ -50,6 +55,8 @@ public class CalculatecakeProfit extends AppCompatActivity {
 
         ed3.setText("MULTIPLY Value"+result);
     }
+
+//divide the total to calculate the price
 
     public void DIVIDE(View v){
         EditText ed1 = (EditText) findViewById(R.id.value1);
