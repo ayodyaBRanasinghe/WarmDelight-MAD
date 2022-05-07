@@ -28,4 +28,5 @@
     <item name="pricem1" type="id">pricem1</item>
     <item name="manage2" type="id">manage2</item>
     <item name="delete2" type="id">delete2</item>
+    <item name="recview" type="id">recview</item>
 </resources>
