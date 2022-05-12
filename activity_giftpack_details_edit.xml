@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiftpackDetailsEdit"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Giftpack"
+        android:layout_marginTop="30dp"
+        android:textAlignment="textStart"
+        android:textSize="30dp"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giftpack Name"
+        android:layout_marginTop="20dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:id="@+id/updategiftpackName"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:hint=""/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giftpack Price"
+        android:layout_marginTop="20dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/updategiftpackPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint=""
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giftpack Cost"
+        android:layout_marginTop="20dp"
+        android:textAlignment="textStart"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/updategiftpackCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint=""
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <Button
+        android:id="@+id/updategiftpackdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="update"/>
+
+
+
+</LinearLayout>
