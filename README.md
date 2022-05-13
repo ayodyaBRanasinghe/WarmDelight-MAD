@@ -1,4 +1,4 @@
-# WarmDelight-MAD :octocat:
+# :octocat: WarmDelight-MAD 
 
 
 ## Contributors
